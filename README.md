@@ -8,6 +8,7 @@ This project was built on React Native, using the plugin developed for react to 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Available Scripts
 In the project directory, you can run:
+npm i -> installs packages necessary for running and sets up the node_modules folder
 npm start -> runs the app in the development mode (open [http://localhost:3000](http://localhost:3000) to view it in the browser)
 
 ### LIBRARIES NEEDED TO RUN
@@ -16,4 +17,5 @@ npm start -> runs the app in the development mode (open [http://localhost:3000](
 2- install the core package | npm install @react-pdf-viewer/core@2.4.1
 3- install pdf viewer default layout | npm install @react-pdf-viewer/default-layout
 ```
+
 
