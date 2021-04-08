@@ -1,0 +1,102 @@
+.background{
+  background-size: cover;
+  background-color:#030303;
+  
+}
+.header{
+position: top;
+background-image: url("headerImg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 20%;
+padding: 2%;
+background-color: black;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 150px; 
+font-weight: bold; 
+letter-spacing: -1px; 
+text-shadow: 2px 2px 5px black;
+line-height: 1;
+text-align: center;
+color:#a33a2c;  
+}
+
+.formGroup {
+  display: flex;
+  position: top;
+  width: 100%;
+  background-color: #a33a2c;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 5px;
+  align-items: center;
+}
+
+.formControl {
+  color: #cd8a53;
+  width: 100%;
+  background-color:  #070404; 
+  border: 3px solid black;
+  margin-right: 25%;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  padding:2%;
+}
+
+.submitButton {
+  width: 50%;
+  background-color: black;
+  border: none;
+  padding: 2%;
+  cursor: pointer;
+  border: 3px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  color: #cd8a53;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center;
+
+}
+
+.viewerHeaderHidden {
+  visibility: hidden;
+}
+
+.viewerHeader{
+  visibility: visible;
+  text-align: center;
+  color: #cd8a53;
+  font-family: 'Helvetica Neue', sans-serif; 
+  background-color: black;
+}
+
+.pdfContainerHidden{
+  visibility: hidden;
+}
+
+.pdfContainer{
+  visibility:visible;
+  width: 100%;
+  height: 800px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMsg{  
+  width: 100%;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif; 
+  color: #df093e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10%;
+  background-color: black;
+
+}
